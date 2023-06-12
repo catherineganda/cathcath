@@ -1,14 +1,4 @@
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
-
-  /**
-   * colors
-   */
-
-  /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
@@ -41,7 +31,7 @@
     hsl(35, 100%, 68%)
   );
 
-  /* solid */
+ 
 
   --jet: hsl(0, 2%, 9%);
   --onyx: hsl(67, 39%, 44%);
@@ -56,14 +46,11 @@
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 0%, 5%);
 
-  /**
-   * typography
-   */
 
-  /* font-family */
+
   --ff-poppins: 'Poppins', sans-serif;
 
-  /* font-size */
+ 
   --fs-1: 24px;
   --fs-2: 18px;
   --fs-3: 17px;
@@ -73,15 +60,12 @@
   --fs-7: 13px;
   --fs-8: 11px;
 
-  /* font-weight */
+  
   --fw-300: 300;
   --fw-400: 400;
   --fw-500: 500;
   --fw-600: 600;
 
-  /**
-   * shadow
-   */
   
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
@@ -89,12 +73,8 @@
   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
-  /**
-   * transition
-   */
+  
 
-  --transition-1: 0.25s ease;
-  --transition-2: 0.5s ease-in-out;
 
 }
 
@@ -102,9 +82,6 @@
 
 
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 
 *, *::before, *::after {
   margin: 0;
@@ -148,9 +125,6 @@ body { background: var(--smoky-black); }
 
 
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
 
 .sidebar,
 article {
@@ -282,11 +256,6 @@ article.active {
 
 
 
-
-/*-----------------------------------*\
-  #MAIN
-\*-----------------------------------*/
-
 main {
   margin: 15px 12px;
   margin-bottom: 75px;
@@ -297,9 +266,7 @@ main {
 
 
 
-/*-----------------------------------*\
-  #SIDEBAR
-\*-----------------------------------*/
+
 
 .sidebar {
   margin-bottom: 15px;
@@ -437,9 +404,6 @@ main {
 
 
 
-/*-----------------------------------*\
-  #NAVBAR
-\*-----------------------------------*/
 
 .navbar {
   position: fixed;
@@ -478,9 +442,7 @@ main {
 
 
 
-/*-----------------------------------*\
-  #ABOUT
-\*-----------------------------------*/
+
 
 .about .article-title { margin-bottom: 15px; }
 
@@ -495,9 +457,7 @@ main {
 
 
 
-/**
- * #service 
- */
+
 
 .service { margin-bottom: 35px; }
 
@@ -544,9 +504,7 @@ main {
 
 
 
-/**
- * education and experience 
- */
+
 
 .timeline { margin-bottom: 30px; }
 
@@ -607,9 +565,7 @@ main {
 }
 
 
-/**
- * skills 
- */
+
 
 .skills-title { margin-bottom: 20px; }
 
@@ -645,9 +601,7 @@ main {
 }
 
   
-  /**
-   * #MAIN
-   */
+  
 
   main {
     margin-top: 60px;
@@ -656,9 +610,7 @@ main {
 
 
 
-  /**
-   * #SIDEBAR
-   */
+  
 
   .sidebar {
     max-height: 180px;
@@ -701,9 +653,7 @@ main {
 
 
 
-  /**
-   * #NAVBAR
-   */
+  
 
   .navbar { border-radius: 20px 20px 0 0; }
 
@@ -713,15 +663,13 @@ main {
 
 
 
-  /**
-   * #ABOUT
-   */
+  
 
   .about .article-title { margin-bottom: 20px; }
 
   .about-text { margin-bottom: 40px; }
 
-  /* service */
+  
 
   .service-item {
     display: flex;
@@ -740,9 +688,7 @@ main {
 
 
 
-  /**
-   * #CONTACT
-   */
+  
 
   .mapbox {
     height: 380px;
@@ -769,9 +715,7 @@ main {
 
 
 
-  /**
-   * SIDEBAR
-   */
+ 
 
   .contacts-list {
     grid-template-columns: 1fr 1fr;
@@ -780,17 +724,12 @@ main {
 
 
 
-  /**
-   * NAVBAR
-   */
 
   .navbar-link { --fs-8: 15px; }
 
 
 
-  /**
-   * CONTACT
-   */
+  
 
   .input-wrapper { grid-template-columns: 1fr 1fr; }
 
@@ -802,9 +741,6 @@ main {
 
 
 
-  /**
-   * MAIN 
-   */
 
   main { margin-bottom: 60px; }
 
@@ -816,9 +752,6 @@ main {
 
 
 
-  /**
-   * NAVBAR
-   */
 
   .navbar {
     position: absolute;
@@ -841,11 +774,7 @@ main {
 
 
 
-  /**
-   * ABOUT
-   */
-
-  /* service */
+  
 
   .service-list {
     grid-template-columns: 1fr 1fr;
@@ -854,9 +783,7 @@ main {
 
 
 
-  /**
-   * MAIN
-   */
+  
 
   main {
     max-width: 1200px;
@@ -875,9 +802,6 @@ main {
 
 
 
-  /**
-   * SIDEBAR
-   */
 
   .sidebar {
     position: sticky;
